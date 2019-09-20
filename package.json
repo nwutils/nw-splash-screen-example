@@ -5,7 +5,7 @@
     "window": {
         "width": 310,
         "height": 400,
-        "resizable": true,
+        "resizable": false,
         "frame": false,
         "transparent": true
     },
