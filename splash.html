@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Splash Screen</title>
+    <script src="node_modules/nw-splasher/nw-splasher.js"></script>
+    <link rel="stylesheet" href="node_modules/nw-splasher/nw-splasher.css" />
+  </head>
+  <body class="drag-enable">
+    <div class="wrapper">
+      <div class="close drag-disable" onclick="nw.Window.get().close(true)">&times;</div>
+      <h1>[App Name] is loading</h1>
+      <div class="spinner"></div>
+      Smooth animation plays while the app window is locked up and hidden from view.
+    </div>
+
+    <script>
+      nwSplasher.loadAppWindowInBackground();
+    </script>
+  </body>
+</html>

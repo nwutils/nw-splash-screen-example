@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Main Application</title>
+    <script src="node_modules/nw-splasher/nw-splasher.js"></script>
+    <style>
+      html,
+      body {
+        height: 100%;
+        box-sizing: border-box;
+      }
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #333;
+        margin: 0px;
+        color: #999;
+        font-family: sans-serif;
+      }
+      h1 {
+        border: 1px solid #999;
+        padding: 30px 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Your App</h1>
+
+    <script>
+      // This function locks up the UI for a given period of time.
+      function sleep (miliseconds) {
+        let currentTime = new Date().getTime();
+        while (currentTime + miliseconds >= new Date().getTime()) {}
+      }
+
+      // simulate loading
+      sleep(5 * 1000);
+
+
+      // The following line should be called when your app is done
+      // loading and the app window is ready to be displayed.
+      nwSplasher.closeSplashAndShowApp();
+
+    </script>
+
+  </body>
+</html>
