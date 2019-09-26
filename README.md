@@ -1,6 +1,8 @@
 # NW.js Splash Screen Example
 
-Show splash screen until main application loads.
+This is a demo of the [NS-Splasher](https://github.com/nwutils/nw-splasher) library. Check it out to see its full API.
+
+Demo shows a splash screen until the main application loads.
 
 ![Animation of splash screen and app loading](splash.gif)
 
