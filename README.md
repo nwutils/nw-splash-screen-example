@@ -9,4 +9,4 @@ Demo shows a splash screen until the main application loads.
 Splash screen and app are separate instances, meaning:
 
 * Splash screen animations will play smoothly as the app loads
-* Splash screen window can be closed without effecting app (Not parent-childed)
+* Splash screen window can be closed without effecting the app loading/showing (Not parent-childed)
