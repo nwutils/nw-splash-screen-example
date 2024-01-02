@@ -1,21 +1,22 @@
 {
-    "name": "nw-splash-example",
-    "version": "0.1.0",
-    "main": "splash.html",
-    "window": {
-        "width": 310,
-        "height": 400,
-        "resizable": false,
-        "frame": false,
-        "transparent": true
-    },
-    "scripts": {
-        "start": "nw ."
-    },
-    "dependencies": {
-        "nw-splasher": "^1.0.0"
-    },
-    "devDependencies": {
-        "nw": "sdk"
-    }
+  "name": "nw-splash-example",
+  "version": "0.1.0",
+  "main": "splash.html",
+  "window": {
+    "width": 310,
+    "height": 400,
+    "resizable": false,
+    "frame": false,
+    "position": "center",
+    "transparent": true
+  },
+  "scripts": {
+    "start": "nw ."
+  },
+  "dependencies": {
+    "nw-splasher": "^1.0.0"
+  },
+  "devDependencies": {
+    "nw": "sdk"
+  }
 }
